@@ -2,4 +2,4 @@
 
 Binary optimisation in a timeseries setting.
 
-![Example output](/figures/example_prediction.png)
+![Example output](/figures/example_prediction_2.png)
