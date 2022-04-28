@@ -6,4 +6,5 @@ Currently implemented we have:
 - An MCMC approach with `Turing.jl`
 - A continuous relaxation approach with `Optim.jl`
 
-![Example output](/figures/example_prediction_2.png)
+Here's an example output using real data:
+![Example output](/figures/realdata_example.png)
