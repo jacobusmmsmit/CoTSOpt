@@ -1,4 +1,4 @@
-# Combinatorial Timeseries Optimisation (CoTSOpt)
+# Combinatorial Time Series Optimisation (CoTSOpt)
 
 This repository explores different ways of solving the combinatorial problem of choosing which time series sum together to give an overall time series of interest.
 
