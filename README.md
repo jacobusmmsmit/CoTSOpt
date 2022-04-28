@@ -7,4 +7,5 @@ Currently implemented we have:
 - A continuous relaxation approach with `Optim.jl`
 
 Here's an example output using real data:
+
 ![Example output](/figures/realdata_example.png)
