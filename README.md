@@ -8,4 +8,4 @@ Currently implemented we have:
 
 Here's an example output using real data:
 
-![Example output](/figures/realdata_example.png)
+![Example output](/figures/realdata_example_traintest.png)
