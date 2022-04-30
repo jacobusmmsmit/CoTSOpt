@@ -5,8 +5,7 @@ Currently it is in a very early exploratory stage, and so the code is not at all
 
 By the end of this project I hope to have:
 - A fully documented API, allowing users to solve CoTS problems with various methods,
-- A brief written document motivating, exploring, and explaining the theory of the problem
-- 
+- A brief document motivating, exploring, and explaining the theory of the problem
 
 Current methods I am exploring are:
 - A basic MCMC approach with `Turing.jl`
