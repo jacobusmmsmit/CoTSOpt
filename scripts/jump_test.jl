@@ -27,7 +27,7 @@ b = train_data
 m, n = size(A)
 
 nl_solver = optimizer_with_attributes(Ipopt.Optimizer, "print_level" => 0)
-minlp_solver = optimizer_with_attributes(Juniper.Optimizer, "nl_solver" => nl_solver, "processors" => 4)
+minlp_solver = optimizer_with_attributes(Juniper.Optimizer, "nl_solver" => nl_solver)
 model = Model(minlp_solver)
 @variable(model, x[1:n], Bin) # define binary variable x
 # @constraint(model, sum(x) == 3) # If it is known that a certain number are optimal
