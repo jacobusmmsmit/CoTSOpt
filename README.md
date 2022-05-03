@@ -3,7 +3,7 @@
 This repository explores different ways of solving the combinatorial problem of choosing which time series sum together to give an overall time series of interest. 
 Currently it is in a very early exploratory stage, and so the code is not at all engineered properly. Files in the (currently non-existant) `src` folder will represent the documented public API of the code, and `scripts` will contain the exploration and application of this API.
 
-Simply put, we want to solve the problem Ax ≈ b, for a binary vector x. The depth comes from the fact that binary/combinatorial optimisation is not an easy task, and there are many ways to go about doing so. Another source of interest is that there are cases where x may be binary for all but a few entries, in which case it would be good to identify which these are and estimate their values.
+Simply put, we want to solve the problem Ax ≈ b, for a binary vector x and some notion of what approximately equal means. The depth comes from the fact that binary/combinatorial optimisation is not an easy task, and there are many ways to go about doing so. Another source of interest is that there are cases where x may be binary for all but a few entries, in which case it would be good to identify which these are and estimate their values.
 
 By the end of this project I hope to have:
 - A fully documented API, allowing users to solve CoTS problems with various methods,
