@@ -18,3 +18,6 @@ Methods I have on my radar are:
 Here's an example output of the MCMC approach using real data:
 
 ![Example output](/figures/train_test_example.png)
+
+and the same problem using JuMP instead:
+![Example output JuMP](/figures/jump_realdata_example.png)
