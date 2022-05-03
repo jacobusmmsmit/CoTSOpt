@@ -10,10 +10,9 @@ By the end of this project I hope to have:
 Current methods I am exploring are:
 - A basic MCMC approach with `Turing.jl`
 - A continuous relaxation approach with `Optim.jl`
+- A pure binary optimisation approach with `JuMP.jl` and `Juniper.jl`
 
 Methods I have on my radar are:
-- A pure binary optimisation approach with `JuMP.jl` and the Gurobi solver
-- Simulated annealing
 - Hidden markov models
 
 Here's an example output of the MCMC approach using real data:
