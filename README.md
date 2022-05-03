@@ -22,3 +22,15 @@ Here's an example output of the MCMC approach using real data:
 Importantly, the MCMC approach does not *force* the variables to zero, only strongly encourages them to be zero. On the other hand, we can solve the problem with JuMP to enforce the variables to be binary and achieve similar results:
 
 ![Example output JuMP](/figures/jump_realdata_example.png)
+
+We want $\bf{Ax} \approx b$, where we define $\approx$ to be the correlation between the two i.e.
+$$\begin{align*}
+\text{max} \quad
+\text{Corr}(\bf{Ax}&,\bf{b}) \\
+\text{s.t.} \quad
+x_{i} &\in \{0,1\} \quad \forall i
+\end{align*}
+$$
+
+Where we define 
+$$Corr(X,Y) = \cfrac{Cov(X,Y)}{\sqrt{Var(X)}\sqrt{Var(Y)}}$$
