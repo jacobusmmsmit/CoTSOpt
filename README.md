@@ -19,6 +19,6 @@ Here's an example output of the MCMC approach using real data:
 
 ![Example output](/figures/train_test_example.png)
 
-and the same problem using JuMP instead:
+Importantly, the MCMC approach does not *force* the variables to zero, only strongly encourages them to be zero. On the other hand, we can solve the problem with JuMP to enforce the variables to be binary and achieve similar results:
 
 ![Example output JuMP](/figures/jump_realdata_example.png)
