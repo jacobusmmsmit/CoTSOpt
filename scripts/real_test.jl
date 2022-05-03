@@ -92,5 +92,5 @@ begin
     plot!(title="Predicted Timeseries (Test Correlation = $c)", xlabel="Month", ylabel="Exports in Tons")
 end
 
-savefig("figures/realdata_example_traintest.png")
+savefig("figures/train_test_example.png")
 bar(1:length(pred_ports), pred_ports, label="")

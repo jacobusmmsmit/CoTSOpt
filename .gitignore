@@ -1,4 +1,4 @@
 /.vscode
 Manifest.toml
 .DS_store
-data/export_test.csv
+/data
