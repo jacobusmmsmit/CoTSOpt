@@ -1,6 +1,8 @@
-module CoTSOpt
+using Distributions
 
-export generate_timeseries
+# module CoTSOpt
+
+# export generate_timeseries
 
 """
     generate_timeseries(n, start=0, ϵ_dist=Normal(0, 1))
@@ -16,4 +18,4 @@ function generate_timeseries(n, start=0, ϵ_dist=Normal(0, 1))
     return ts
 end
 
-end # module
+# end # module
